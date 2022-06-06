@@ -54,7 +54,7 @@ function setup() {
 function pixelSizeChange() {
   
   if (slider.value() == 0) {
-    grid = 16;
+    grid = 10;
   } else if (slider.value() == 20) {
     grid = 20;
   } else if (slider.value() == 40) {
@@ -102,7 +102,7 @@ function draw(){
     
     // SET THE GRID
     if (slider.value() == 0) {
-      grid = 15;
+      grid = 10;
     } else if (slider.value() == 20) {
       grid = 20;
     } else if (slider.value() == 40) {
